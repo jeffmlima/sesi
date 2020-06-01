@@ -1,24 +1,44 @@
-# Compiled class file
-*.class
+# diretorios
+/build/
+/bin/
+target/
+.settings/
 
-# Log file
-*.log
+# compilados
+.class
 
-# BlueJ files
-*.ctxt
+# compactados
+.war
+.ear
+.jar
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# erro de jvm
 hs_err_pid*
-/target/
+
+# logs
+.log
+.sql
+.sqlite
+
+# OSX
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.classpath
+#.project
+.tern-project
+WebContent/WEB-INF/.faces-config.xml.jsfdia
+/correcao
